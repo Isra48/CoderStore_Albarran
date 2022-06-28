@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 9vh;
+  background-color: black;
+  color: white;
+}
+.containerlogo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logonavbar {
+  text-decoration: none;
+  color: white;
+}
+.textnavbar {
+  text-decoration: none;
+  color: white;
+}
+.componentsnavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+/*Mediaquerys ipad air */
+@media only screen and (max-width: 820px) {
+}
