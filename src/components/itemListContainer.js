@@ -1,11 +1,11 @@
 import "./itemListContainer.css";
 
-function itemlistContainer() {
+function itemlistContainer(props) {
   return (
     <div className="Cards">
-      <div className="Card">1</div>
-      <div className="Card">2</div>
-      <div className="Card">3 </div>
+      <div className="Card">1 {props.message}</div>
+      <div className="Card">2{props.message}</div>
+      <div className="Card">3 {props.message} </div>
     </div>
   );
 }
