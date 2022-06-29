@@ -11,7 +11,7 @@
 .counter {
   position: absolute;
   z-index: 2;
-  top: 0;
+  top: 14px;
   font-size: 12px;
 
   width: 32px;
@@ -20,11 +20,15 @@
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 920px) {
+  .bag {
+    width: 35px;
+  }
   .counter {
     position: absolute;
     z-index: 2;
-    top: 0;
+    top: 5px;
     font-size: 15px;
+    color: #f2f2f2;
   }
 }

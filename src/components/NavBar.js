@@ -7,6 +7,7 @@ import hamburguernav from "../assets/hamburguernavicon.png";
 function Navbar() {
   return (
     <div className="masternavbar">
+      {/* Navabar Desktop */}
       <div className="navbar">
         <div className="containerlogo">
           <a href="" className="logonavbar">
@@ -33,21 +34,24 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Aqui inicia el menu responsive */}
+      {/* Navbar responsive */}
+      {/*  */}
       <div className="navbar2">
-        <div className="containerlogo">
-          <a href="" className="logonavbar">
+        <div className="containerlogo2">
+          <a href="" className="logonavbar2">
             {" "}
             <img className="logoch" src={logoch} alt="Logo Coder House" />{" "}
           </a>
         </div>
-        <div className="hamburguer-bag">
+        <div className="containerbtns">
           <Cw />
-          <img
-            className="hamburguernav"
-            src={hamburguernav}
-            alt="Menu de hamburguesa"
-          />
+          <a href="" className="hamburgerNav">
+            <img
+              className="hamburguerimg"
+              src={hamburguernav}
+              alt="Menu de hamburguesa"
+            />
+          </a>
         </div>
       </div>
     </div>
