@@ -3,10 +3,10 @@ import "./itemCount.css";
 function itemCount() {
   return (
     <div className="itemCount">
-      <button> -</button>
-      <div className=""> 9</div>
+      <button className="btnl"> - </button>
+      <div className="contador"> 9</div>
 
-      <button>+ </button>
+      <button className="btnr"> + </button>
     </div>
   );
 }

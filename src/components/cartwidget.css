@@ -27,7 +27,7 @@
   .counter {
     position: absolute;
     z-index: 2;
-    top: 5px;
+    top: 0.5px;
     font-size: 15px;
     color: #f2f2f2;
   }

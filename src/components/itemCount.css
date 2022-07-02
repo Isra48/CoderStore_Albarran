@@ -1,5 +1,25 @@
 .itemCount {
-  background-color: red;
+  background-color: #1f2023;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+}
+.itemCount button {
+  padding: 10px;
+  background-color: #eaff6a;
+  border: white;
+  width: 15%;
+}
+.btnr {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btnl {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.contador {
+  padding: 7px;
+  color: white;
 }
