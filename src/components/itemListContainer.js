@@ -4,18 +4,19 @@ import ItemCount from "./itemCount";
 function itemlistContainer(props) {
   return (
     <div className="Cards">
-      <div className="Card">
-        1 {props.message}
-        <ItemCount />
-      </div>
-      <div className="Card">
-        2{props.message}
-        <ItemCount />
-      </div>
-      <div className="Card">
-        3 {props.message}
-        <ItemCount />
-      </div>
+        {props.message.map((el)=>{
+          console.log(el)
+          return <div className="Card">
+         {el.title}
+         <ItemCount initial={el.initial}  stock={el.stock}/>
+        <div className="btn_carrito_container"> <a className="btn_carrito" onClick={props.onadd}> Add to cart </a> </div>
+       
+       </div>
+
+        })}
+
+
+  
     </div>
   );
 }
