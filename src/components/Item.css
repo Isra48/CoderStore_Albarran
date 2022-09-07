@@ -1,0 +1,25 @@
+.Card {
+    background-color: coral;
+    margin-top: 0.5em;
+    height: 100%;
+    margin-bottom: 2em;
+  }
+
+.img_producto{
+    width: 90%;
+}
+
+
+
+  .btn_carrito_container{
+    margin-top:1.5em ;
+  }
+  
+  .btn_carrito{
+    padding: 1em 2em;
+    color: #f2f2f2;
+    background-color: #1f2023;
+    cursor: pointer;
+    border-radius: 6px ;
+    
+  }
